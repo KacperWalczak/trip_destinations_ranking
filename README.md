@@ -5,8 +5,8 @@ I was on a trip with my friend and we were extremely bored in a train trip. We w
 To make it a little more relevant I wrote this code to scrap data from Wikipedia and try to estimate how expensive each trip would be, based on GDP per capita (we were students back then and we could afford fancy trips).
 
 Logic of code:
--reads list of countries with two scores (1~10) from csv file, uploaded file has all scores set to 5 :),
--scrap data of GDP per capita for each country from Wikipedia page and assign some score, the cheaper the better (0~5 point to get),
+-reads list of countries with two scores (1 to 10) from csv file, uploaded file has all scores set to 5 :),
+-scrap data of GDP per capita for each country from Wikipedia page and assign some score, the cheaper the better (0 to 5 point to get),
 -sum the point and sort countries based on summary score.
 
 In future I think to add new parameter that estimates distance of the trip.
